@@ -1,9 +1,11 @@
+import { Cart3 } from "react-bootstrap-icons";
+
 const CartWidget = () => {
     return(
-        <>
-            <h3>Cart Widget</h3>
-            <h3>0</h3>
-        </>
+        <div>
+            <Cart3 size={30}/>
+            0
+        </div>
     );
 }
 export default CartWidget;
